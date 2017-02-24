@@ -6,7 +6,11 @@
   "bugs": {
     "url": "https://github.com/blinkmobile/jira-scripts/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "inquirer": "^3.0.4",
+    "jira-client": "^5.0.1",
+    "p-each-series": "^1.0.0"
+  },
   "devDependencies": {
     "eslint": "^3.16.1",
     "eslint-config-standard": "^6.2.1",
