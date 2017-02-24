@@ -1,0 +1,38 @@
+{
+  "name": "jira-scripts",
+  "description": "some handy scripts that we use with our Atlassian JIRA Cloud",
+  "version": "1.0.0",
+  "author": "Ron Waldon <jokeyrhyme@gmail.com> (https://github.com/jokeyrhyme)",
+  "bugs": {
+    "url": "https://github.com/blinkmobile/jira-scripts/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-node": "^4.1.0",
+    "eslint-plugin-promise": "^3.4.2",
+    "eslint-plugin-standard": "^2.0.1",
+    "fixpack": "^2.3.1",
+    "flow-bin": "^0.39.0"
+  },
+  "engines": {
+    "node": ">=7",
+    "npm": ">=4"
+  },
+  "homepage": "https://github.com/blinkmobile/jira-scripts#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blinkmobile/jira-scripts.git"
+  },
+  "scripts": {
+    "eslint": "eslint --fix --cache .",
+    "fixpack": "fixpack",
+    "flow_check": "flow check",
+    "posttest": "npm run eslint && npm run flow_check && npm run fixpack",
+    "test": "echo hi there"
+  }
+}
